@@ -52,6 +52,10 @@
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
 
+        <activity
+            android:name=".GPSActivity"
+            android:label="GPS TESZT" />
+
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.example.android.fileprovider"
@@ -79,7 +83,7 @@
         <service
             android:name=".EsamuRTFService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true"/>
     </application>
 
 </manifest>

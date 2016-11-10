@@ -27,4 +27,9 @@
         android:orderInCategory="100"
         android:title="@string/action_recipes"
         app:showAsAction="never" />
+<item
+        android:id="@+id/action_gps_test"
+        android:orderInCategory="100"
+        android:title="GPS teszt"
+        app:showAsAction="never" />
 </menu>

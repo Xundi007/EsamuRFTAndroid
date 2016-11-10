@@ -63,6 +63,10 @@ public class ControlActivity extends AppCompatActivity {
             case (R.id.action_recipes):
                 Log.d(this.getClass().getName(), "Recipes Options Menu");
                 break;
+            case (R.id.action_gps_test):
+                Log.d(this.getClass().getName(), "GPS TESZT Options Menu");
+                this.startActivity(new Intent(this, GPSActivity.class));
+                break;
         }
 
         return super.onOptionsItemSelected(item);
